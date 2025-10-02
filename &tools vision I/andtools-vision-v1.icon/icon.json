@@ -1,0 +1,70 @@
+{
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.00000,0.47843,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "glass" : true,
+          "image-name" : "3.3 - layer.svg",
+          "name" : "3.3 - layer",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -1.1368683772161603e-13,
+              -19.27191495542388
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "4.1 – layer.svg",
+          "name" : "4.1 – layer",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -1.1368683772161603e-13,
+              -19.27191495542388
+            ]
+          }
+        },
+        {
+          "glass" : false,
+          "image-name" : "2.2 - layer.svg",
+          "name" : "2.2 - layer",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -1.1368683772161603e-13,
+              -19.27191495542388
+            ]
+          }
+        },
+        {
+          "fill" : "automatic",
+          "glass" : false,
+          "image-name" : "1.background 2.svg",
+          "name" : "1.background 2"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

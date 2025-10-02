@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		52F912982E8D1E7E0091E9D0 /* AndtoolsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 52F912972E8D1E7E0091E9D0 /* AndtoolsCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		52F912882E8D1DA40091E9D0 /* &tools vision I.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "&tools vision I.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,16 +27,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F912982E8D1E7E0091E9D0 /* AndtoolsCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52D667F22E8D2098008E615D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52F9127F2E8D1DA40091E9D0 = {
 			isa = PBXGroup;
 			children = (
 				52F9128A2E8D1DA40091E9D0 /* &tools vision I */,
+				52D667F22E8D2098008E615D /* Frameworks */,
 				52F912892E8D1DA40091E9D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +78,7 @@
 			);
 			name = "&tools vision I";
 			packageProductDependencies = (
+				52F912972E8D1E7E0091E9D0 /* AndtoolsCore */,
 			);
 			productName = "&tools vision I";
 			productReference = 52F912882E8D1DA40091E9D0 /* &tools vision I.app */;
@@ -94,6 +108,9 @@
 			);
 			mainGroup = 52F9127F2E8D1DA40091E9D0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				52F912962E8D1E7E0091E9D0 /* XCLocalSwiftPackageReference "../AndtoolsCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 52F912892E8D1DA40091E9D0 /* Products */;
 			projectDirPath = "";
@@ -248,23 +265,27 @@
 		52F912942E8D1DA50091E9D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "andtools-vision-v1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H678YC85GW;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vision I";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Csaba-Ward.-tools-vision-I";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -280,23 +301,27 @@
 		52F912952E8D1DA50091E9D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "andtools-vision-v1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H678YC85GW;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vision I";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Csaba-Ward.-tools-vision-I";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -331,6 +356,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		52F912962E8D1E7E0091E9D0 /* XCLocalSwiftPackageReference "../AndtoolsCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AndtoolsCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52F912972E8D1E7E0091E9D0 /* AndtoolsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AndtoolsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52F912802E8D1DA40091E9D0 /* Project object */;
 }
